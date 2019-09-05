@@ -1,0 +1,19 @@
+.c-button {
+  padding: 20px;
+  transition: all 0.3s ease;
+  &--default {
+    font-size: 18px;
+    background-color: transparentize($accent, 0.5);
+
+    &:hover {
+      background-color: transparentize($accent, 0.1);
+    }
+  }
+  &--transparent {
+    background-color: transparentize($milk, 0.8);
+
+    &:hover {
+      background-color: transparentize($milk, 0.6);
+    }
+  }
+}

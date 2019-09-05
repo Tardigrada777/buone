@@ -1,0 +1,10 @@
+.c-client-logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &--microsoft {
+    min-width: 150px;
+    min-height: 130px;
+    background-image: url('../img/microsoft-logo.png');
+  }
+}

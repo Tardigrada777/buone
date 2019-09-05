@@ -1,0 +1,4 @@
+.c-heading {
+  font-size: 48px;
+  @include md(font-size, 8vmin);
+}

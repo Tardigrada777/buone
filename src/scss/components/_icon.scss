@@ -1,0 +1,23 @@
+.c-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  &--phone {
+    @extend .c-icon;
+    background-image: url('../img/icons/phone.svg');
+  }
+  &--mail {
+    @extend .c-icon;
+    background-image: url('../img/icons/mail.svg');
+
+    // FIXME: костыль
+    width: 35px;
+    height: 25px;
+  }
+
+  &.size {
+    &--medium {
+      height: 30px;
+      width: 17px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.c-contact-info {
+  display: flex;
+  @include md(display, none);
+  &__item {
+    display: flex;
+    align-items: center;
+    color: $black;
+    margin-right: 30px;
+    font-size: 13px;
+
+    &:hover {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  &--mobile {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+}

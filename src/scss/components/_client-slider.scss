@@ -1,0 +1,27 @@
+.c-clients-slider,
+.c-review-slider {
+  &__controls {
+    display: flex;
+    align-items: center;
+
+    @include sm(display, none);
+  }
+  &__bullets {
+    flex-grow: 1;
+  }
+
+  &__bullet {
+    background-color: $accent;
+    opacity: 0.4;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+    padding: 2px 5px;
+
+    &--active {
+      opacity: 1;
+    }
+  }
+}

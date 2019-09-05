@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Web-developer Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/lib/glide.core.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="c-navbar pt--20 pb--20">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col lg--4 md--6 a-self--center">
+						<a href="/">
+							<div class="c-main-logo"></div>
+						</a>
+					</div>
+					<div class="c-navbar__nav col lg--8 md--6">
+						<div class="c-contact-info mb--20">
+							<a href="tel:81112223344" class="c-contact-info__item">
+								<svg class="mr--10" width="10" height="17" viewBox="0 0 18 30" fill="blue"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M15.4011 0H2.02629C0.912 0 0 0.911143 0 2.02629V27.9729C0 29.088 0.912 30 2.02629 30H15.4011C16.5154 30 17.4274 29.0897 17.4274 27.9737V2.02629C17.4274 0.911143 16.5154 0 15.4011 0ZM6.57429 1.46057H10.8531C10.9886 1.46057 11.0983 1.57029 11.0983 1.70657C11.0983 1.842 10.9886 1.95171 10.8531 1.95171H6.57429C6.43886 1.95171 6.32914 1.842 6.32914 1.70657C6.32914 1.57029 6.43886 1.46057 6.57429 1.46057ZM8.71371 28.9869C8.154 28.9869 7.70057 28.5334 7.70057 27.9729C7.70057 27.4123 8.154 26.9597 8.71371 26.9597C9.27343 26.9597 9.72686 27.4123 9.72686 27.9729C9.72686 28.5334 9.27343 28.9869 8.71371 28.9869ZM16.0174 26.25H1.41V3.21343H16.0174V26.25Z"
+										fill="#005fa3" />
+								</svg>
+								8(111)222-33-44
+							</a>
+							<a href="#" class="c-contact-info__item">
+								<svg class="mr--10" width="17" height="17" viewBox="0 0 17 17" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.5 0C3.80558 0 0 3.80558 0 8.5C0 13.1944 3.80558 17 8.5 17C13.1944 17 17 13.1944 17 8.5C16.994 3.80809 13.1919 0.00601673 8.5 0ZM8.86465 16.2525V14.7574C8.86465 14.556 8.70138 14.3928 8.5 14.3928C8.29862 14.3928 8.13535 14.556 8.13535 14.7574V16.2525C4.13691 16.0616 0.938428 12.8631 0.747533 8.86465H2.2426C2.44398 8.86465 2.60725 8.70138 2.60725 8.5C2.60725 8.29862 2.44398 8.13535 2.2426 8.13535H0.747533C0.938428 4.13691 4.13691 0.938428 8.13535 0.747533V2.2426C8.13535 2.44398 8.29862 2.60725 8.5 2.60725C8.70138 2.60725 8.86465 2.44398 8.86465 2.2426V0.747533C12.8631 0.938428 16.0616 4.13691 16.2525 8.13535H14.7574C14.556 8.13535 14.3928 8.29862 14.3928 8.5C14.3928 8.70138 14.556 8.86465 14.7574 8.86465H14.761H16.2561C16.0651 12.8644 12.8645 16.0634 8.86465 16.2525Z"
+										fill="#005FA3" />
+									<path
+										d="M12.3471 11.8913L8.86465 8.35049V4.67117C8.86465 4.46979 8.70137 4.30652 8.5 4.30652C8.29862 4.30652 8.13535 4.46979 8.13535 4.67117V8.5C8.13576 8.59568 8.17373 8.68734 8.24109 8.75526L11.8256 12.4018C11.9666 12.5458 12.1976 12.5482 12.3416 12.4072C12.4856 12.2662 12.488 12.0352 12.3471 11.8913Z"
+										fill="#005FA3" />
+								</svg>
+								Пн-Пт 10:00-18:00
+							</a>
+							<a href="mailto:order@bu-one.ru" class="c-contact-info__item">
+								<svg class="mr--10" width="22" height="17" viewBox="0 0 40 30" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M34.6085 0H4.82055C2.1615 0 0 2.1615 0 4.82055V25.1794C0 27.8385 2.1615 30 4.82055 30H34.6003C37.2594 30 39.4209 27.8385 39.4209 25.1794V4.82871C39.429 2.16966 37.2675 0 34.6085 0ZM37.2268 25.1794C37.2268 26.6232 36.0522 27.7977 34.6085 27.7977H4.82055C3.37684 27.7977 2.20228 26.6232 2.20228 25.1794V4.82871C2.20228 3.38499 3.37684 2.21044 4.82055 2.21044H34.6003C36.044 2.21044 37.2186 3.38499 37.2186 4.82871V25.1794H37.2268Z"
+										fill="#005FA3" />
+									<path
+										d="M24.8612 14.7472L34.5023 6.10121C34.951 5.69338 34.9917 5.00006 34.5839 4.54329C34.1761 4.09468 33.4828 4.0539 33.026 4.46173L19.7307 16.3948L17.1369 14.0784C17.1288 14.0702 17.1206 14.0621 17.1206 14.0539C17.0635 13.9968 17.0064 13.9479 16.9412 13.8989L6.38651 4.45357C5.92974 4.04574 5.23643 4.08652 4.8286 4.54329C4.42077 5.00006 4.46156 5.69338 4.91833 6.10121L14.6736 14.8206L4.95911 23.9152C4.51865 24.3312 4.49418 25.0245 4.91017 25.4732C5.1304 25.7015 5.42403 25.8239 5.71767 25.8239C5.98684 25.8239 6.25601 25.726 6.46808 25.5303L16.3294 16.3051L19.0048 18.695C19.2169 18.8826 19.4779 18.9723 19.7389 18.9723C19.9999 18.9723 20.2691 18.8745 20.473 18.6869L23.2218 16.2236L33.026 25.5384C33.2381 25.7423 33.5154 25.8402 33.7846 25.8402C34.0782 25.8402 34.3637 25.726 34.5839 25.4976C34.9999 25.0572 34.9836 24.3557 34.5431 23.9397L24.8612 14.7472Z"
+										fill="#005FA3" />
+								</svg>
+								order@bu-one.ru
+							</a>
+							<a href="#" class="c-contact-info__item">
+								<svg class="mr--10" width="17" height="17" viewBox="0 0 17 17" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.4882 0C5.05271 0 2.25781 2.7949 2.25781 6.23038C2.25781 7.80857 3.25222 10.0384 5.21354 12.8579C6.64711 14.919 8.05708 16.5139 8.11648 16.5808L8.4882 17L8.86005 16.5808C8.91932 16.5139 10.3293 14.919 11.763 12.8579C13.7242 10.0384 14.7187 7.80857 14.7187 6.23038C14.7187 2.7949 11.9237 0 8.4882 0ZM10.9525 12.2823C9.98351 13.6763 9.00414 14.876 8.4882 15.4881C7.97355 14.8777 6.99782 13.6825 6.02948 12.2903C4.21226 9.67793 3.2517 7.58237 3.2517 6.23038C3.2517 3.34301 5.60082 0.993889 8.4882 0.993889C11.3757 0.993889 13.7247 3.34301 13.7247 6.23038C13.7247 7.58095 12.7661 9.67365 10.9525 12.2823Z"
+										fill="#005FA3" />
+									<path
+										d="M8.48821 2.30267C6.46062 2.30267 4.8111 3.95219 4.8111 5.97979C4.8111 8.00739 6.46062 9.65704 8.48821 9.65704C10.5159 9.65704 12.1655 8.00739 12.1655 5.97979C12.1655 3.95219 10.5159 2.30267 8.48821 2.30267ZM8.48821 8.66315C7.00873 8.66315 5.80499 7.4594 5.80499 5.97979C5.80499 4.50031 7.00873 3.29656 8.48821 3.29656C9.96783 3.29656 11.1716 4.50031 11.1716 5.97979C11.1716 7.4594 9.96783 8.66315 8.48821 8.66315Z"
+										fill="#005FA3" />
+								</svg>
+
+								Невский пр. 130
+							</a>
+						</div>
+						<nav class="c-menu">
+							<a class="c-menu__item">Главная</a>
+							<a class="c-menu__item">Услуги</a>
+							<a class="c-menu__item">Кейсы</a>
+							<a class="c-menu__item">О компании</a>
+							<a class="c-menu__item">Контакты</a>
+						</nav>
+						<div class="c-menu--mobile">
+							<div class="c-menu--mobile__drawer"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80">
+									<path class="line top"
+										d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+									<path class="line middle" d="m 30,50 h 40" />
+									<path class="line bottom"
+										d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+								</svg></div>
+							<div class="c-menu--mobile__sidebar">
+								<a class="c-menu__item--mobile">Главная</a>
+								<a class="c-menu__item--mobile">Услуги</a>
+								<a class="c-menu__item--mobile">Кейсы</a>
+								<a class="c-menu__item--mobile">О компании</a>
+								<a class="c-menu__item--mobile">Контакты</a>
+								<div class="c-contact-info--mobile">
+									<a href="tel:81112223344" class="c-contact-info__item mb--10">
+										<svg class="mr--10" width="10" height="17" viewBox="0 0 18 30" fill="blue"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M15.4011 0H2.02629C0.912 0 0 0.911143 0 2.02629V27.9729C0 29.088 0.912 30 2.02629 30H15.4011C16.5154 30 17.4274 29.0897 17.4274 27.9737V2.02629C17.4274 0.911143 16.5154 0 15.4011 0ZM6.57429 1.46057H10.8531C10.9886 1.46057 11.0983 1.57029 11.0983 1.70657C11.0983 1.842 10.9886 1.95171 10.8531 1.95171H6.57429C6.43886 1.95171 6.32914 1.842 6.32914 1.70657C6.32914 1.57029 6.43886 1.46057 6.57429 1.46057ZM8.71371 28.9869C8.154 28.9869 7.70057 28.5334 7.70057 27.9729C7.70057 27.4123 8.154 26.9597 8.71371 26.9597C9.27343 26.9597 9.72686 27.4123 9.72686 27.9729C9.72686 28.5334 9.27343 28.9869 8.71371 28.9869ZM16.0174 26.25H1.41V3.21343H16.0174V26.25Z"
+												fill="#005fa3" />
+										</svg>
+										8(111)222-33-44
+									</a>
+									<a href="#" class="c-contact-info__item mb--10">
+										<svg class="mr--10" width="17" height="17" viewBox="0 0 17 17" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8.5 0C3.80558 0 0 3.80558 0 8.5C0 13.1944 3.80558 17 8.5 17C13.1944 17 17 13.1944 17 8.5C16.994 3.80809 13.1919 0.00601673 8.5 0ZM8.86465 16.2525V14.7574C8.86465 14.556 8.70138 14.3928 8.5 14.3928C8.29862 14.3928 8.13535 14.556 8.13535 14.7574V16.2525C4.13691 16.0616 0.938428 12.8631 0.747533 8.86465H2.2426C2.44398 8.86465 2.60725 8.70138 2.60725 8.5C2.60725 8.29862 2.44398 8.13535 2.2426 8.13535H0.747533C0.938428 4.13691 4.13691 0.938428 8.13535 0.747533V2.2426C8.13535 2.44398 8.29862 2.60725 8.5 2.60725C8.70138 2.60725 8.86465 2.44398 8.86465 2.2426V0.747533C12.8631 0.938428 16.0616 4.13691 16.2525 8.13535H14.7574C14.556 8.13535 14.3928 8.29862 14.3928 8.5C14.3928 8.70138 14.556 8.86465 14.7574 8.86465H14.761H16.2561C16.0651 12.8644 12.8645 16.0634 8.86465 16.2525Z"
+												fill="#005FA3" />
+											<path
+												d="M12.3471 11.8913L8.86465 8.35049V4.67117C8.86465 4.46979 8.70137 4.30652 8.5 4.30652C8.29862 4.30652 8.13535 4.46979 8.13535 4.67117V8.5C8.13576 8.59568 8.17373 8.68734 8.24109 8.75526L11.8256 12.4018C11.9666 12.5458 12.1976 12.5482 12.3416 12.4072C12.4856 12.2662 12.488 12.0352 12.3471 11.8913Z"
+												fill="#005FA3" />
+										</svg>
+										Пн-Пт 10:00-18:00
+									</a>
+									<a href="mailto:order@bu-one.ru" class="c-contact-info__item mb--10">
+										<svg class="mr--10" width="22" height="17" viewBox="0 0 40 30" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M34.6085 0H4.82055C2.1615 0 0 2.1615 0 4.82055V25.1794C0 27.8385 2.1615 30 4.82055 30H34.6003C37.2594 30 39.4209 27.8385 39.4209 25.1794V4.82871C39.429 2.16966 37.2675 0 34.6085 0ZM37.2268 25.1794C37.2268 26.6232 36.0522 27.7977 34.6085 27.7977H4.82055C3.37684 27.7977 2.20228 26.6232 2.20228 25.1794V4.82871C2.20228 3.38499 3.37684 2.21044 4.82055 2.21044H34.6003C36.044 2.21044 37.2186 3.38499 37.2186 4.82871V25.1794H37.2268Z"
+												fill="#005FA3" />
+											<path
+												d="M24.8612 14.7472L34.5023 6.10121C34.951 5.69338 34.9917 5.00006 34.5839 4.54329C34.1761 4.09468 33.4828 4.0539 33.026 4.46173L19.7307 16.3948L17.1369 14.0784C17.1288 14.0702 17.1206 14.0621 17.1206 14.0539C17.0635 13.9968 17.0064 13.9479 16.9412 13.8989L6.38651 4.45357C5.92974 4.04574 5.23643 4.08652 4.8286 4.54329C4.42077 5.00006 4.46156 5.69338 4.91833 6.10121L14.6736 14.8206L4.95911 23.9152C4.51865 24.3312 4.49418 25.0245 4.91017 25.4732C5.1304 25.7015 5.42403 25.8239 5.71767 25.8239C5.98684 25.8239 6.25601 25.726 6.46808 25.5303L16.3294 16.3051L19.0048 18.695C19.2169 18.8826 19.4779 18.9723 19.7389 18.9723C19.9999 18.9723 20.2691 18.8745 20.473 18.6869L23.2218 16.2236L33.026 25.5384C33.2381 25.7423 33.5154 25.8402 33.7846 25.8402C34.0782 25.8402 34.3637 25.726 34.5839 25.4976C34.9999 25.0572 34.9836 24.3557 34.5431 23.9397L24.8612 14.7472Z"
+												fill="#005FA3" />
+										</svg>
+										order@bu-one.ru
+									</a>
+									<a href="#" class="c-contact-info__item mb--10">
+										<svg class="mr--10" width="17" height="17" viewBox="0 0 17 17" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8.4882 0C5.05271 0 2.25781 2.7949 2.25781 6.23038C2.25781 7.80857 3.25222 10.0384 5.21354 12.8579C6.64711 14.919 8.05708 16.5139 8.11648 16.5808L8.4882 17L8.86005 16.5808C8.91932 16.5139 10.3293 14.919 11.763 12.8579C13.7242 10.0384 14.7187 7.80857 14.7187 6.23038C14.7187 2.7949 11.9237 0 8.4882 0ZM10.9525 12.2823C9.98351 13.6763 9.00414 14.876 8.4882 15.4881C7.97355 14.8777 6.99782 13.6825 6.02948 12.2903C4.21226 9.67793 3.2517 7.58237 3.2517 6.23038C3.2517 3.34301 5.60082 0.993889 8.4882 0.993889C11.3757 0.993889 13.7247 3.34301 13.7247 6.23038C13.7247 7.58095 12.7661 9.67365 10.9525 12.2823Z"
+												fill="#005FA3" />
+											<path
+												d="M8.48821 2.30267C6.46062 2.30267 4.8111 3.95219 4.8111 5.97979C4.8111 8.00739 6.46062 9.65704 8.48821 9.65704C10.5159 9.65704 12.1655 8.00739 12.1655 5.97979C12.1655 3.95219 10.5159 2.30267 8.48821 2.30267ZM8.48821 8.66315C7.00873 8.66315 5.80499 7.4594 5.80499 5.97979C5.80499 4.50031 7.00873 3.29656 8.48821 3.29656C9.96783 3.29656 11.1716 4.50031 11.1716 5.97979C11.1716 7.4594 9.96783 8.66315 8.48821 8.66315Z"
+												fill="#005FA3" />
+										</svg>
+
+										Невский пр. 130
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="c-header pt--100 pb--100">
+			<div class="wrapper">
+				<div class="c-header-slider">
+					<div class="glide__track mb--50 sm-mb--0" data-glide-el="track">
+						<ul class="glide__slides">
+							<div class="c-header-slder__slide">
+								<h1 class="text text--heading  size--48 weight--900 color--white max-w--540 mb--50">
+									Бухгалтерские
+									услуги
+									в&nbsp;Санкт-Петербурге 1
+								</h1>
+								<button class="c-button bg--accent text text--base size--18 color--white">Наша презентация</button>
+							</div>
+							<div class="c-header-slder__slide">
+								<h1 class="text text--heading size--48 weight--900 color--white max-w--540 mb--50">
+									Бухгалтерские
+									услуги
+									в&nbsp;Санкт-Петербурге 2
+								</h1>
+								<button class="c-button bg--accent text text--base size--18 color--white">Еще одна презентация</button>
+							</div>
+							<div class="c-header-slder__slide">
+								<h1 class="text text--heading size--48 weight--900 color--white max-w--540 mb--50">
+									Бухгалтерские
+									услуги
+									в&nbsp;Санкт-Петербурге 3
+								</h1>
+								<button class="c-button bg--accent text text--base size--18 color--white">И Еще!</button>
+							</div>
+						</ul>
+					</div>
+					<div class="c-header-slider__controls">
+						<div class="c-header-slider__bullets" data-glide-el="controls[nav]">
+							<button class="c-header-slider__bullet" data-glide-dir="=0"></button>
+							<button class="c-header-slider__bullet" data-glide-dir="=1"></button>
+							<button class="c-header-slider__bullet" data-glide-dir="=2"></button>
+						</div>
+						<div class="d-flex" data-glide-el="controls">
+							<button class="c-button c-button--transparent text color--white" data-glide-dir="<">
+								<</span> </button> <button class="c-button c-button--transparent text color--white" data-glide-dir=">">>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- Services Section  -->
+		<section class="bg--light-gray pt--100 pb--100">
+			<div class="wrapper">
+				<h2 class="text text--base weight--900 color--milk size--24 mb--20">Наши услуги</h2>
+				<h3 class="c-heading text text--heading color--black weight--900 mb--50">Мы специализируемся</h3>
+
+				<div class="c-services">
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+					<div class="c-service c-service--buh">
+						<span class="c-service__label">Бухгалтерское обслуживание</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Us Section -->
+		<section class="pt--100 pb--100">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col lg--6 md--12">
+						<h2 class="text text--base weight--900 color--milk size--24 mb--20">О нас</h2>
+						<h3 class="c-heading text text--heading  color--black weight--900 mb--50">
+							Компания <br>
+							<span class="text color--accent">ИвановПром</span>
+						</h3>
+						<p class="text text--base weight--300 size--18 color--black md-mb--50 max-w--445 md-max-w--100p">
+							Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+							стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
+							большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не
+							только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+						</p>
+					</div>
+					<div class="col lg--6 md--12">
+						<div class="row">
+							<div class="c-deal-card">
+								<div class="c-deal-card__counter">90</div>
+								<div class="c-deal-card__desc">
+									Завершено крупных сделок
+								</div>
+								<a href="#" class="c-deal-card__link">Все кейсы</a>
+							</div>
+							<div class="c-deal-card">
+								<div class="c-deal-card__counter">90</div>
+								<div class="c-deal-card__desc">
+									Завершено крупных сделок
+								</div>
+								<a href="#" class="c-deal-card__link">Все кейсы</a>
+							</div>
+							<div class="c-deal-card">
+								<div class="c-deal-card__counter">90</div>
+								<div class="c-deal-card__desc">
+									Завершено крупных сделок
+								</div>
+								<a href="#" class="c-deal-card__link">Все кейсы</a>
+							</div>
+							<div class="c-deal-card">
+								<div class="c-deal-card__counter">90</div>
+								<div class="c-deal-card__desc">
+									Завершено крупных сделок
+								</div>
+								<a href="#" class="c-deal-card__link">Все кейсы</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Clients Section -->
+		<section class="bg--light-gray pt--100 pb--100 sm-pt--50 sm-pb--50">
+			<div class="wrapper">
+				<h2 class="text text--base weight--900 color--milk size--24 mb--20">Наши клиенты</h2>
+				<h3 class="c-heading text text--heading color--black weight--900 mb--50">С нами работают</h3>
+				<div class="c-clients-slider">
+					<div class="glide__track mb--50 sm-mb--0" data-glide-el="track">
+						<ul class="glide__slides">
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+							<div class="c-client-logo c-client-logo--microsoft"></div>
+						</ul>
+					</div>
+					<div class="c-clients-slider__controls">
+						<div class="c-clients-slider__bullets" data-glide-el="controls[nav]">
+							<button class="c-clients-slider__bullet" data-glide-dir="=0"></button>
+							<button class="c-clients-slider__bullet" data-glide-dir="=1"></button>
+							<button class="c-clients-slider__bullet" data-glide-dir="=2"></button>
+							<button class="c-clients-slider__bullet" data-glide-dir="=3"></button>
+							<button class="c-clients-slider__bullet" data-glide-dir="=4"></button>
+						</div>
+						<div class="d-flex" data-glide-el="controls">
+							<button class="c-button c-button--default text color--white" data-glide-dir="<">
+								<</button> <button class="c-button c-button--default text color--white" data-glide-dir=">">>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Reviews Section -->
+		<section class="bg--white pt--100 pb--100">
+			<div class="wrapper">
+				<h2 class="text text--base weight--900 color--milk size--24 mb--20">Отзывы</h2>
+				<h3 class="c-heading text text--heading color--black weight--900 mb--50">Ваши благодарности</h3>
+
+				<div class="c-review-slider">
+					<div class="glide__track mb--50 sm-mb--0" data-glide-el="track">
+						<ul class="glide__slides">
+							<div class="c-review-card">
+								<div class="c-review-card__content">
+									Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+									стандартной
+									"рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал
+									большую
+									коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это
+									текст-"рыба", часто используемый в печати и вэб-дизайне.
+								</div>
+								<div class="c-review-card__author">
+									<div class="c-user-info">
+										<div class="c-user-info__avatar mr--15">
+											<img
+												src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6"
+												alt="Ekaterina Ivanova">
+										</div>
+										<div class="c-user-info__name">
+											<p class="text text--base weight--900 size--18">Екатерина Иванова</p>
+											<p class="text text--base weight--normal size--14">Директор ООО "РазДва"</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="c-review-card">
+								<div class="c-review-card__content">
+									Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+									стандартной
+									"рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
+									коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это
+									текст-"рыба", часто используемый в печати и вэб-дизайне.
+								</div>
+								<div class="c-review-card__author">
+									<div class="c-user-info">
+										<div class="c-user-info__avatar mr--15">
+											<img
+												src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3759e09a5b9fbe53088b23c615b6312e"
+												alt="Ekaterina Ivanova">
+										</div>
+										<div class="c-user-info__name">
+											<p class="text text--base weight--900 size--18">Екатерина Иванова</p>
+											<p class="text text--base weight--normal size--14">Директор ООО "РазДва"</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="c-review-card">
+								<div class="c-review-card__content">
+									Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+									стандартной
+									"рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
+									коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это
+									текст-"рыба", часто используемый в печати и вэб-дизайне.
+								</div>
+								<div class="c-review-card__author">
+									<div class="c-user-info">
+										<div class="c-user-info__avatar mr--15">
+											<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ekaterina Ivanova">
+										</div>
+										<div class="c-user-info__name">
+											<p class="text text--base weight--900 size--18">Екатерина Иванова</p>
+											<p class="text text--base weight--normal size--14">Директор ООО "РазДва"</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</ul>
+					</div>
+					<div class="c-review-slider__controls">
+						<div class="c-review-slider__bullets" data-glide-el="controls[nav]">
+							<button class="c-review-slider__bullet" data-glide-dir="=0"></button>
+							<button class="c-review-slider__bullet" data-glide-dir="=1"></button>
+							<button class="c-review-slider__bullet" data-glide-dir="=2"></button>
+						</div>
+						<div class="d-flex" data-glide-el="controls">
+							<button class="c-button c-button--default text color--white" data-glide-dir="<">
+								<</button> <button class="c-button c-button--default text color--white" data-glide-dir=">">>
+							</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+		<!-- Contact Form Section -->
+		<section class="c-contact-us pt--50 pb--50">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col lg--6 md--12">
+						<h1 class="text text--heading weight--900 size--48 color--white mb--30">Связь с нами</h1>
+						<p class="text text--base weight--300 size--18 color--white mb--50">
+							У вас остались вопросы? Напишите нам - мы ответим в&nbsp;ближайшее время!
+						</p>
+						<div class="d-flex j-cont--sb a-items--center max-w--445 wrap">
+							<div class="d-flex a-items--center xs-mb--15">
+								<div class="c-icon--phone size--medium mr--15"></div>
+								<a class="text text--base color--white weight--300 size--21" href="tel:+71112223344">+7 (111) 222 33
+									44</a>
+							</div>
+							<div class="d-flex a-items--center">
+								<div class="c-icon--mail mr--15"></div>
+								<a class="text text--base color--white weight--300 size--21"
+									href="mailto:order@bu-one.ru">order@bu-one.ru</a>
+							</div>
+						</div>
+					</div>
+					<div class="col lg--6 md--12 md-mt--50">
+						<form action="#" autocomplete="off">
+							<div class="row mb--50 md-mb--15">
+								<div class="c-field col lg--6 md--12">
+									<label for="name" class="c-field__label">Имя</label>
+									<input class="c-field__form-control" type="text" id="name" name="name" placeholder="Иван">
+								</div>
+								<div class="c-field col lg--6 md--12">
+									<label for="lastname" class="c-field__label">Фамилия</label>
+									<input class="c-field__form-control" type="text" id="lastname" name="lastname" placeholder="Иванов" ">
+								</div>
+							</div>
+							<div class=" c-field mb--20">
+									<label for="message" class="c-field__label">Ваше сообщение</label>
+									<textarea class="c-field__form-control" type="text" id="message" name="message"
+										placeholder="Ваше сообщение"></textarea>
+								</div>
+								<div class="d-flex j-cont--end">
+									<button type="submit" class="c-button text text--base size--18 color--white bg--accent">Отправить
+										сообщение</button>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="pt--30 pb--30">
+		<div class="wrapper">
+			<div class="c-footer">
+				<p class="text text--base weight--300 size--14 mr--15">2019 &copy; Все права защищены. БухОне.ру</p>
+				<p class="text text--base weight--300 size--14"> Разработано: BuhOne.ru </p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+	<script src="./js/bundle.js"></script>
+</body>
+
+</html>

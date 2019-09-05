@@ -1,0 +1,45 @@
+// Settings imports
+@import './settings/smart-grid';
+@import './settings/colors.scss';
+@import './settings/maps.scss';
+@import './settings/fonts.scss';
+@import './settings/indentation.scss';
+@import './settings/typography.scss';
+@import './settings/utils.scss';
+@import './settings/sizes';
+@import './settings/flex';
+@import './settings/grid';
+
+// Tools imports
+
+// Generic imports
+@import './generic/reset';
+@import './generic/common';
+
+// Elements imports
+
+// Objects imports
+
+// Components imports
+@import './components/header';
+@import './components/heading';
+@import './components/services';
+@import './components/service';
+@import './components/button';
+@import './components/icon';
+@import './components/field';
+@import './components/main-logo';
+@import './components/navbar';
+@import './components/menu';
+@import './components/contact-info';
+
+@import './components/client-slider';
+@import './components/header-slider';
+@import './components/review-card';
+@import './components/user-info';
+
+@import './components/deal-card';
+@import './components/client-logo';
+@import './components/contact-us';
+@import './components/footer';
+// Utilities imports

@@ -1,0 +1,17 @@
+.c-user-info {
+  display: flex;
+  align-items: center;
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/latolight.ttf'),
+    // src: url('../fonts/WebFont.eot');
+      // src: url('../fonts/WebFont.eot?iefix') format('eot'),
+      url('../fonts/latolight.woff') format('woff'),
+    url('../fonts/latolight.woff2') format('woff');
+
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/latoregular.ttf'),
+    // src: url('../fonts/WebFont.eot');
+      // src: url('../fonts/WebFont.eot?iefix') format('eot'),
+      url('../fonts/latoregular.woff') format('woff'),
+    url('../fonts/latoregular.woff2') format('woff');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/latoblack.woff2') format('woff');
+
+  font-weight: 900;
+  font-style: normal;
+}
+
+$base: 'Lato', sans-serif;
+$heading: 'Merriweather SC', serif;

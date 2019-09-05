@@ -1,0 +1,29 @@
+.c-field {
+  display: flex;
+  flex-direction: column;
+
+  @include md(margin-bottom, 15px);
+
+  &__label {
+    font-family: $base;
+    font-weight: normal;
+    font-size: 14px;
+    color: $white;
+    margin-bottom: 7px;
+  }
+
+  &__form-control {
+    background-color: transparent;
+    color: $milk;
+    border-bottom: 1px solid $white;
+    padding-bottom: 7px;
+    font-size: 21px;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 150px;
+
+    @include md(min-height, 100px);
+  }
+}

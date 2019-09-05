@@ -1,0 +1,7 @@
+.c-navbar {
+  &__nav {
+    @include md(display, flex);
+    @include md(justify-content, flex-end);
+    @include md(align-items, center);
+  }
+}
